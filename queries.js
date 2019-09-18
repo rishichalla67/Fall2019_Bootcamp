@@ -31,9 +31,11 @@ var removeCable = function() {
 };
 var updatePhelpsMemorial = function() {
     //I hope this is the correct address we are supposed to use.
-    Listing.findOneAndUpdate({'name': 'Phelps Laboratory'}, { 'address': '1953 Museum Rd, Gainesville, FL 32603' }, function (err, data) {
+    Listing.findOneAndUpdate({'name': 'Phelps Laboratory'}, { 'address': '1953 Museum Rd, Gainesville, FL 32603' },
+        function (err, data) {
     });
-    Listing.findOne({ 'name': 'Phelps Laboratory'}, function (err, data) {
+    Listing.findOne({ 'name': 'Phelps Laboratory'},
+        function (err, data) {
     });
 };
 var retrieveAllListings = function() {
