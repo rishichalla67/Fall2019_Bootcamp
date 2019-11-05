@@ -26,7 +26,7 @@ Instructions:
 `npm init -y`
 `npm i --save mongoose`
 2. Define your schema in `ListingSchema.js`
-3. Create a `config.js` file (based on `config.example.js`) and add the uri to your MongoDB Atlas database (See Step 0 above).
+3. Create a `config.js` file (based on `config.js`) and add the uri to your MongoDB Atlas database (See Step 0 above).
 3. Ensure your schema passes the tests by running `mocha listing.model.test.js`
 `npm install should` 
 //[Should](https://shouldjs.github.io/) is a testing definition libary. Installation needed only the first time you run mocha
